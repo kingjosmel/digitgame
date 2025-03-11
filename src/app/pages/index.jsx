@@ -119,6 +119,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gray-900 text-white flex flex-col items-center">
+      
       <Head>
         <title>Guess the Number - Win $10,000!</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -137,6 +138,9 @@ export default function Home() {
           transition={{ duration: 0.5 }}
           className="w-full max-w-md"
         >
+          <h1 className="text-4xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+             stand a chance to win $10,000
+          </h1>
           <h1 className="text-4xl font-bold mb-2 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
             Guess The Number
           </h1>
